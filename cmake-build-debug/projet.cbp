@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="projet"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/development/sta/projet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projet">
+				<Option output="C:/development/sta/projet/cmake-build-debug/projet.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/development/sta/projet/."/>
+					<Add directory="C:/development/sta/projet/Libs_Unirail/CAN"/>
+					<Add directory="C:/development/sta/projet/Libs_Unirail/ERTMS"/>
+					<Add directory="C:/development/sta/projet/Libs_Unirail/XBEE"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 projet"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projet/fast">
+				<Option output="C:/development/sta/projet/cmake-build-debug/projet.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/development/sta/projet/."/>
+					<Add directory="C:/development/sta/projet/Libs_Unirail/CAN"/>
+					<Add directory="C:/development/sta/projet/Libs_Unirail/ERTMS"/>
+					<Add directory="C:/development/sta/projet/Libs_Unirail/XBEE"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 projet/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/development/sta/projet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/development/sta/projet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/development/sta/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/CAN/MESCAN1_DefinitionVariable.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/CAN/MESCAN1_MAIN_PARAMS.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/CAN/MESCAN1_Utilitaire.c">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/CAN/MESCAN1_Utilitaire.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/CAN/MESCAN1_VarStatusTrain.c">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/CAN/MESCAN1_VarStatusTrain.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/CAN/MESCAN1_VarTrain.c">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/CAN/MESCAN1_VarTrain.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/CAN/canLinux.c">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/CAN/canLinux.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/CAN/loco_MAIN_PARAMS.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/ERTMS/GSM_R_message.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/ERTMS/GSM_R_packet.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/XBEE/xbee.c">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/Libs_Unirail/XBEE/xbee.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/comm.c">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/example.c">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/rbc.c">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/rbc.h">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/socket_example.c">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/surveillance_arret.c">
+			<Option target="projet"/>
+		</Unit>
+		<Unit filename="C:/development/sta/projet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
